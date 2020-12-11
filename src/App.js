@@ -1,9 +1,18 @@
 import React from 'react';
 
 function App() {
-  return(
-    <div>Hola Mundo</div>
+  return (
+    <div className="container">
+      <h1>Citas Veterinaria</h1>
+      <div className="flex-row">
+        <div className="flex-large">
+          <h2>Add user</h2>
+        </div>
+        <div className="flex-large">
+          <h2>view users</h2>
+        </div>
+      </div>
+    </div>
   );
 }
-
 export default App;
